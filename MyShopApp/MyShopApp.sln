@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyShopApp.Core", "MyShopApp.Core\MyShopApp.Core.csproj", "{0AC2ED12-1F08-4470-8012-BB6956BE748A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyShopApp.services", "MyShopApp.services\MyShopApp.services.csproj", "{52D94E91-0BC8-4A28-A2E2-30CE233688D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyShopApp.DataAccess.SQL", "MyShopApp.DataAccess.SQL\MyShopApp.DataAccess.SQL.csproj", "{73654F8C-0349-4466-B574-B748F14F4392}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyShopApp.DataAccess.InMemory", "MyShopApp.DataAccess.InMemory\MyShopApp.DataAccess.InMemory.csproj", "{50BAEE4B-1465-4FE0-9487-F182E8F980DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyShopApp.WebUI", "WebApplication1\MyShopApp.WebUI.csproj", "{7C7103AB-5EB3-4F59-AC83-791C7090F319}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyShopApp.WebUI.Tests", "WebApplication1.Tests\MyShopApp.WebUI.Tests.csproj", "{BB09916B-0305-4518-8FC9-31AC31C4BCE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AC2ED12-1F08-4470-8012-BB6956BE748A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AC2ED12-1F08-4470-8012-BB6956BE748A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AC2ED12-1F08-4470-8012-BB6956BE748A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AC2ED12-1F08-4470-8012-BB6956BE748A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52D94E91-0BC8-4A28-A2E2-30CE233688D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52D94E91-0BC8-4A28-A2E2-30CE233688D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52D94E91-0BC8-4A28-A2E2-30CE233688D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52D94E91-0BC8-4A28-A2E2-30CE233688D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73654F8C-0349-4466-B574-B748F14F4392}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73654F8C-0349-4466-B574-B748F14F4392}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73654F8C-0349-4466-B574-B748F14F4392}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73654F8C-0349-4466-B574-B748F14F4392}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50BAEE4B-1465-4FE0-9487-F182E8F980DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50BAEE4B-1465-4FE0-9487-F182E8F980DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50BAEE4B-1465-4FE0-9487-F182E8F980DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50BAEE4B-1465-4FE0-9487-F182E8F980DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C7103AB-5EB3-4F59-AC83-791C7090F319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C7103AB-5EB3-4F59-AC83-791C7090F319}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C7103AB-5EB3-4F59-AC83-791C7090F319}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C7103AB-5EB3-4F59-AC83-791C7090F319}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB09916B-0305-4518-8FC9-31AC31C4BCE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB09916B-0305-4518-8FC9-31AC31C4BCE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB09916B-0305-4518-8FC9-31AC31C4BCE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB09916B-0305-4518-8FC9-31AC31C4BCE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
